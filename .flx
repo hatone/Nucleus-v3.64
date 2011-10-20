@@ -1,0 +1,11 @@
+#########################################
+#
+#  fluxflex configuration for Nucleus-v3.64
+#
+#########################################
+
+## Permission
+[permission]
+public_html 755
+public_html/media/ 777
+public_html/skins/ 777
