@@ -22,10 +22,10 @@
 // Nucleus CMSの基本機能に関する設定を行います
 
 // MySQLサーバへ接続するための諸設定
-$MYSQL_HOST     = 'hostname';
-$MYSQL_USER     = 'username';
-$MYSQL_PASSWORD = 'password';
-$MYSQL_DATABASE = 'databasename';
+$MYSQL_HOST     = 'DUMMY_DB_HOST';
+$MYSQL_USER     = 'DUMMY_PROJECT_NAME';
+$MYSQL_PASSWORD = 'DUMMY_DB_PASSWORD';
+$MYSQL_DATABASE = 'DUMMY_PROJECT_NAME';
 $MYSQL_PREFIX   = '';
 
 // 3.50で導入された値。第1引数はデータベースハンドラです。第2引数はハンドラで使われるドライバです。

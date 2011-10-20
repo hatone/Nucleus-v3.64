@@ -10,3 +10,9 @@ public_html 755
 public_html/media/ 777
 public_html/skins/ 777
 public_html/config.php 666
+
+## Replace
+[replace]
+public_html/config.php   DUMMY_DB_HOST         DB_HOST
+public_html/config.php   DUMMY_PROJECT_NAME    PROJECT_NAME
+public_html/config.php   DUMMY_DB_PASSWORD     DB_PASSWORD
