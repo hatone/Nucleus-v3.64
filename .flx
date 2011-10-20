@@ -9,3 +9,4 @@
 public_html 755
 public_html/media/ 777
 public_html/skins/ 777
+public_html/config.php 666
