@@ -251,19 +251,19 @@ function showInstallForm() {
 			<table>
 				<tr>
 					<td><label for="if_mySQL_host"><?php echo _TEXT4_TAB_FIELD1; ?>:</label></td>
-					<td><input id="if_mySQL_host" name="mySQL_host" value="DUMMY_DB_HOST" tabindex="10010" /></td>
+					<td><input id="if_mySQL_host" name="mySQL_host" value="<?php echo htmlspecialchars(@ini_get('mysql.default_host') )?>" tabindex="10010" /></td>
 				</tr>
 				<tr>
 					<td><label for="if_mySQL_user"><?php echo _TEXT4_TAB_FIELD2; ?>:</label></td>
-					<td><input id="if_mySQL_user" name="mySQL_user" value="DUMMY_PROJECT_NAME" tabindex="10020" /></td>
+					<td><input id="if_mySQL_user" name="mySQL_user" tabindex="10020" /></td>
 				</tr>
 				<tr>
 					<td><label for="if_mySQL_password"><?php echo _TEXT4_TAB_FIELD3; ?>:</label></td>
-					<td><input id="if_mySQL_password" name="mySQL_password" value="DUMMY_DB_PASSWORD" type="password" tabindex="10030" /></td>
+					<td><input id="if_mySQL_password" name="mySQL_password" type="password" tabindex="10030" /></td>
 				</tr>
 				<tr>
 					<td><label for="if_mySQL_database"><?php echo _TEXT4_TAB_FIELD4; ?>:</label></td>
-					<td><input id="if_mySQL_database" name="mySQL_database" value="DUMMY_PROJECT_NAME" tabindex="10040" /> (<input name="mySQL_create" value="1" type="checkbox" id="mySQL_create" tabindex="10050" /><label for="mySQL_create"><?php echo _TEXT4_TAB_FIELD4_ADD; ?></label>)</td>
+					<td><input id="if_mySQL_database" name="mySQL_database" tabindex="10040" /> (<input name="mySQL_create" value="1" type="checkbox" id="mySQL_create" tabindex="10050" /><label for="mySQL_create"><?php echo _TEXT4_TAB_FIELD4_ADD; ?></label>)</td>
 				</tr>
 			</table>
 		</fieldset>
